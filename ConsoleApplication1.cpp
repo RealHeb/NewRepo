@@ -10,13 +10,5 @@ void bubbleSort(int arr[], int n) {
 
 
 int main() {
-	int arr[] = { 64, 34, 25, 12, 22, 11, 90 };
-	int n = sizeof(arr) / sizeof(arr[0]);
-	bubbleSort(arr, n);
-	cout << "Sorted array: ";
-	for (int i = sizeof(arr); i > -1; i--) {
-		cout << arr[i] << " ";
-	}
-	cout << endl;
-	return 0;
+	std::cout << "hello";
 }
